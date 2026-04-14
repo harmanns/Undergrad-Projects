@@ -1,0 +1,518 @@
+
+
+#header, #content {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width:1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+#header {
+    font-family: 'roboto';
+    font-weight: 1100;
+    text-transform: uppercase;
+}
+
+#header .wrapper {
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;
+    gap: 10px;  
+}            
+
+#header h1 {
+    margin: 0;
+    padding:0;
+    line-height: 0.8;
+    margin-top: 10px;
+}
+
+.diab {
+    font-weight: 450;
+    font-size: 40px;
+    color: #c51616;
+    text-transform: uppercase;
+}
+
+.reti {
+    font-weight: 900;
+    font-size: 50px;
+    color: #1a2a5a;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#nav li {
+    display: flex;
+    align-items: center;
+}
+
+#nav li a {
+     text-decoration: none;
+     color: #c51616;
+     font-weight: 600;
+     padding: 1px 12px;
+}
+
+
+#header ul li a:hover, #header ul li.current a {
+    background-color: #c51616;
+    color: white;
+}
+
+.uk-totop-button {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+
+    background: #1a2a5a;      
+    padding: 20px;           
+    border-radius: 6px;
+
+    color: white;
+}
+
+#header .uk-dropdown-nav > li > a {
+    padding: 10px 10px;   /* top/bottom, left/right */
+    display: block;
+}
+
+
+h2 {
+    font-family: 'roboto';
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 45px;
+    width: 60%;
+    margin-top: 10px;
+    color: #1a2a5a;
+
+}
+
+#whatisdr p {
+    width: 50%;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+#content {
+    position: relative;
+}
+
+#contentSidebar {
+    position: absolute;
+    right: 0px;      
+    top: 0;        
+    width: 250px;
+    top: 50px;
+    background-color: #c51616;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#contentSidebar h3 {
+    font-family: 'roboto';
+     text-transform: uppercase;
+     font-weight: 900;
+     color: white;
+     font-size: 30px;
+
+}
+
+#contentSidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-inner ul li {
+    list-style: none;  
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#contentSidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contentSidebar ul li {
+    margin-bottom: 10px;
+}
+#contentSidebar ul li a {
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+    display: block;
+    padding: 0px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+#contentSidebar ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    padding-left: 18px; 
+}
+
+#imagePanel {
+    display: flex;       
+    gap: 0;                 
+    margin-top: 20px;       
+    overflow: hidden;
+}
+
+#imagePanel .image {
+    flex: 1;              
+    height: 180px;          
+    object-fit: cover;      
+    display: block;
+}
+
+#causesofdr {
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20;
+}
+
+.cause-row {
+    display: flex;
+    margin: 20px 0;
+}
+
+.cause-text {
+    flex: 2;
+    padding: 15px;
+    background-color: #C8E0F4;
+    font-family: 'roboto';
+}
+
+.cause-text h3 {
+    margin-top: 0;
+}
+
+.cause-text ul {
+    margin: 0;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.cause-image {
+    flex: 1;
+}
+
+.cause-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#causesofdr h3 {
+    font-family: 'roboto';
+    font-weight: 600;
+    color: #c51616;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+.stage-card img {
+    width: 100%;
+    height: 350px;        
+    object-fit: contain;  
+    background: #1a2a5a;  
+    padding: 20px;        
+}
+
+.uk-card-body {
+    background-color: #C8E0F4;
+} 
+
+.stage-card {
+    background-color: #C8E0F4;
+}
+
+.stage-card.uk-card-hover:hover {
+    background-color: #C8E0F4;
+}
+
+#stagesofdr h4{
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 25px;
+    color: #c51616;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#stagesofdr ul li {
+    font-family: 'roboto';
+    font-size: 20px;
+}
+
+
+/*medical-treatments.html*/
+
+#header .uk-breadcrumb {
+    margin-top: 8px;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#header .uk-breadcrumb li a,
+#header .uk-breadcrumb li span {
+    background: transparent !important;
+    color: #1a2a5a !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 0;
+}
+
+#header .uk-breadcrumb li a:hover {
+    background: transparent !important;
+    color: #c51616 !important;
+    font-weight: 800 !important;
+}
+
+#content h2 {
+    margin-top: 0;
+}
+
+
+.nav-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.treatment-card {
+    background-color: #C8E0F4;
+    border-radius: 6px;
+}
+
+.treatment-card .uk-card-media-top {
+    height: 240px;               
+    background: #1a2a5a;
+    overflow: hidden;            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.treatment-card .uk-card-media-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;           
+}
+
+
+.treatment-card .uk-card-body {
+    background-color: #C8E0F4;
+    text-align: center;
+}
+
+.treatment-title {
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 22px;
+    color: #1a2a5a;
+    text-transform: uppercase;
+}
+
+
+
+#treatments h2 {
+    font-family: 'roboto';
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 35px;
+    width: 60%;
+    margin-top: 10px;
+    color: #1a2a5a;
+
+}
+
+.treatment-section h3 {
+    color: #c51616;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.treatment-section p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 1.45;
+}
+
+.treatment-section p strong {
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.treatment-section ul li {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.45;
+}
+
+/*complications.html*/
+
+/* Complication cards – reuse stage-card look */
+.comp-card {
+    background-color: #C8E0F4;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* Image area at top */
+.comp-card .uk-card-media-top {
+    height: 240px;
+    background: #1a2a5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comp-card .uk-card-media-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Light-blue body */
+.comp-card .uk-card-body {
+    background-color: #C8E0F4;
+}
+
+/* SUMMARY: acts as dropdown tab title */
+.comp-card details > summary {
+    color: #c51616;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0 0 8px;
+    list-style: none;
+    position: relative;
+    padding-right: 24px;
+}
+
+/* arrow */
+.comp-card details > summary::after {
+    content: "›";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    font-size: 20px;
+    color: #c51616;
+    transition: transform 0.2s ease;
+}
+
+.comp-card details[open] > summary::after {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+/* list + text inside dropdown */
+.comp-card ul li,
+.comp-card p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+/*footer*/
+#site-footer {
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+    background: #c51616;    
+}
+
+.footer-disclaimer {
+    font-style: italic;
+    font-size: 20px;
+    color: white;             
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/*diagnosis.html*/
+
+#eyeexams {
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+
+#eyeexams h3 {
+    font-family: 'roboto';
+    font-weight: 600;
+    color: #c51616;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.cause-image {
+    flex: 1;
+    height: 260px;         
+    overflow: hidden;      
+}
+
+.cause-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     
+}
+
+
+
+
+

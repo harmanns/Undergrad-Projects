@@ -1,0 +1,383 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Medical Treatments</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.24.2/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.24.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.24.2/dist/js/uikit-icons.min.js"></script>
+
+
+
+<link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+	<div id="header">
+		<div class="wrapper">
+
+			<div class="logo-title">
+				<img class="logo" src="images/logo.png" alt="logo">
+
+				<h1>
+					<span class="diab">Diabetic</span><br>
+					<span class="reti">Retinopathy</span>
+				</h1>
+			</div>
+
+			<ul id="nav">
+
+				<li><a href="index.html">What is Diabetic Retinopathy?</a></li>
+
+				<li>
+					<a href="#">Affects of Diabetic Retinopathy</a>
+					<div class="uk-dropdown uk-dropdown-bottom-center" uk-dropdown="mode: hover; delay-hide: 0;">
+						<ul class="uk-nav uk-dropdown-nav">
+							<li><a href="anatomy.html">Anatomy</a></li>
+							<li><a href="affects.html#symptoms">Symptoms</a></li>
+							<li><a href="complications.html">Complications</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">Screening & Diagnosis</a>
+					<div class="uk-dropdown uk-dropdown-bottom-center" uk-dropdown="mode: hover; delay-hide: 0;">
+						<ul class="uk-nav uk-dropdown-nav">
+							<li><a href="diagnosis.html">Eye exams</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">Treatment</a>
+					<div class="uk-dropdown uk-dropdown-bottom-center" uk-dropdown="mode: hover; delay-hide: 0;">
+						<ul class="uk-nav uk-dropdown-nav">
+							<li><a href="medical-treatments.html">Medical treatments</a></li>
+							<li><a href="treatment.html#pharma">Pharmaceutical treatments</a></li>
+							<li><a href="treatment.html#surgical">Surgical treatments</a></li>
+							<li><a href="treatment.html#lifestyle">Lifestyle changes</a></li>
+						</ul>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">Resources</a>
+					<div class="uk-dropdown uk-dropdown-bottom-center" uk-dropdown="mode: hover; delay-hide: 0;">
+						<ul class="uk-nav uk-dropdown-nav">
+							<li><a href="resources.html#publications">Recent publications</a></li>
+							<li><a href="resources.html#institutions">Institutions</a></li>
+						</ul>
+					</div>
+				</li>
+
+			</ul>
+
+			<ul class="uk-breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="affects.html">Treatments</a></li>
+				<li><span>Medical Treatments</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div id="content">
+			<h2>Medical Treatments</h2>
+			<div class="wrapper">
+				<div id="navTab">
+
+					<div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid>
+
+						<!-- Anti-VEGF -->
+						<div>
+							<a href="#antiVEGF" class="nav-card-link" uk-scroll>
+								<div class="uk-card treatment-card">
+									<div class="uk-card-media-top">
+										<img src="images/anti-vegf.png" alt="an image showing anti-VEGF injection to the eye">
+									</div>
+									<div class="uk-card-body">
+										<h4 class="treatment-title">Anti-VEGF</h4>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!-- Anti-Inflammatory -->
+						<div>
+							<a href="#steroid" class="nav-card-link" uk-scroll>
+								<div class="uk-card treatment-card">
+									<div class="uk-card-media-top">
+										<img src="images/dex.png" alt="an image showing a dex implant in the eye">
+									</div>
+									<div class="uk-card-body">
+										<h4 class="treatment-title">Anti-Inflammatory</h4>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!-- Laser -->
+						<div>
+							<a href="#laser" class="nav-card-link" uk-scroll>
+								<div class="uk-card treatment-card">
+									<div class="uk-card-media-top">
+										<img src="images/laser.png" alt="Laser Treatment">
+									</div>
+									<div class="uk-card-body">
+										<h4 class="treatment-title">Laser</h4>
+									</div>
+								</div>
+							</a>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="wrapper">
+				<div id="treatments">
+					<div class="wrapper">
+
+						
+						<!--   ANTI-VEGF DRUGS     -->
+						
+						<div class="treatment-section" id="antiVEGF">
+
+							<h2>Anti-VEGF Drugs</h2>
+
+							<p>
+								These drugs inhibit VEGF (vascular endothelial growth factor), a key angiogenic factor that
+								promotes abnormal retinal blood vessel growth (Wang &amp; Lo, 2018). They are given monthly or
+								bimonthly due to their short half-life and risk of endophthalmitis.
+							</p>
+
+							<!-- Ranibizumab -->
+							<div class="treatment-block">
+								<h3>Ranibizumab (Lucentis)</h3>
+								<p>Most evaluated and widely tested anti-VEGF medication.</p>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Greater BCVA improvement</li>
+									<li>Reduced CRT</li>
+									<li>Comparable to panretinal photocoagulation for PDR</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Elevation in intraocular pressure</li>
+									<li>Vitreous hemorrhage</li>
+									<li>Inflammation</li>
+								</ul>
+							</div>
+
+							<!-- Pegaptanib -->
+							<div class="treatment-block">
+								<h3>Pegaptanib (Macugen)</h3>
+								<p>Early FDA-approved anti-VEGF.</p>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Better BCVA improvement vs. sham (2-year trial)</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Conjunctival hemorrhage</li>
+									<li>Elevated intraocular pressure</li>
+								</ul>
+							</div>
+
+							<!-- Aflibercept -->
+							<div class="treatment-block">
+								<h3>Aflibercept (EYLEA)</h3>
+								<p>Highly effective, particularly in patients with poor baseline vision.</p>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Greater BCVA gains than laser</li>
+									<li>Effective for DME and PDR</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Elevated intraocular pressure</li>
+									<li>Vitreous hemorrhage</li>
+									<li>Inflammation</li>
+								</ul>
+							</div>
+
+							<!-- Bevacizumab -->
+							<div class="treatment-block">
+								<h3>Bevacizumab (Avastin) – Off-label</h3>
+								<p>Widely used, cost-effective anti-VEGF option.</p>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Better median visual acuity</li>
+									<li>Greater CRT reduction vs. laser</li>
+									<li>Improvement in DME</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Elevated intraocular pressure</li>
+									<li>Vitreous hemorrhage</li>
+									<li>Inflammation</li>
+								</ul>
+							</div>
+
+						</div>
+
+
+						<!--   ANTI-INFLAMMATORY THERAPY     -->
+
+						<div class="treatment-section" id="steroid">
+
+							<h2>Anti-Inflammatory Therapy</h2>
+
+							<p>Intravitreal steroid treatments help reduce inflammation and treat DME.</p>
+
+							<!-- Triamcinolone -->
+							<div class="treatment-block">
+								<h3>Triamcinolone – Off-label</h3>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Visual improvement in DME</li>
+									<li>Better outcomes when combined with prompt laser</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Cataract formation (often requiring surgery)</li>
+									<li>Elevated intraocular pressure</li>
+									<li>Vitreous hemorrhage</li>
+								</ul>
+							</div>
+
+							<!-- Ozurdex -->
+							<div class="treatment-block">
+								<h3>DEX Implant (Ozurdex) – FDA Approved</h3>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Greater BCVA improvement</li>
+									<li>Significant CRT reduction</li>
+									<li>Long-acting (up to 6 months)</li>
+									<li>Effective for refractory DME</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Cataract formation</li>
+									<li>Elevated intraocular pressure</li>
+									<li>Vitreous hemorrhage</li>
+								</ul>
+							</div>
+
+							<!-- Iluvien -->
+							<div class="treatment-block">
+								<h3>FAe Insert (Iluvien, 0.2 mg) – FDA Approved</h3>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Sustained multi-year drug release</li>
+									<li>Improved BCVA over 2 years</li>
+									<li>Lower rate of IOP elevation vs older implants</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Cataract surgery often needed</li>
+									<li>Elevated intraocular pressure</li>
+									<li>Risk of glaucoma</li>
+								</ul>
+							</div>
+
+						</div>
+
+
+						<!--     LASER THERAPY     -->
+						<div class="treatment-section" id="laser">
+
+							<h2>Laser Treatment</h2>
+
+							<!-- Focal/Grid Laser -->
+							<div class="treatment-block">
+								<h3>Focal/Grid Laser (for Macular Edema)</h3>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Reduces risk of moderate vision loss</li>
+									<li>Helps stabilize and improve vision</li>
+									<li>Decreases persistent macular edema</li>
+									<li>Often paired with anti-VEGF to reduce injection burden</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Mild loss of visual acuity</li>
+									<li>Small blind spots</li>
+								</ul>
+							</div>
+
+							<!-- PRP -->
+							<div class="treatment-block">
+								<h3>Panretinal Photocoagulation (PRP) – for PDR</h3>
+
+								<p><strong>Benefits:</strong></p>
+								<ul>
+									<li>Reduces risk of severe vision loss</li>
+									<li>Inhibits disease progression</li>
+									<li>Helpful in high-risk cases (e.g., vitreous hemorrhage)</li>
+								</ul>
+
+								<p><strong>Adverse Effects:</strong></p>
+								<ul>
+									<li>Loss of visual acuity</li>
+									<li>Peripheral visual field constriction</li>
+									<li>Reduced night vision</li>
+								</ul>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<p> All content on this webpage is referenced from 
+			Wang, W., & Lo, A. C. Y. (2018). Diabetic retinopathy: Pathophysiology and treatments. International Journal of Molecular Sciences, 19(6), 1816. https://doi.org/10.3390/ijms19061816
+		</p>
+
+		<p>Anti-VEGF image retrived from: Eye Physicians and Surgeons of Ontario. (2018b, April 5). Anti-VEGF treatments | Eye Physicians and Surgeons of Ontario. Eye Physicians and Surgeons of Ontario | Ontario’s Ophthalmologists. https://www.epso.ca/vision-health/eye-conditions/retinal-diseases/amd/amd-treatments/anti-vegf-treatments/</p>
+
+		<p>Anti-Inflammatory Image retrieved from: Karti O, Saatci AO. Place of intravitreal dexamethasone implant in the treatment armamentarium of diabetic macular edema. World J Diabetes 2021; 12(8): 1220-1232 [PMID: 34512888 DOI: 10.4239/wjd.v12.i8.1220]
+		</p>
+
+		<p>Laser image retrieved from: Fvclteam, & Fvclteam. (2025, January 22). Focal Retinal Laser Procedure - Fraser Valley Cataract & Laser. Fraser Valley Cataract & Laser -. https://fvcl.ca/focal-retinal-laser-procedure/</p>
+	</div>
+
+	<footer id="site-footer">
+		<p class="footer-disclaimer">
+			This site was completed in fulfillment of the requirements of HSC401H5: 
+			Web-based Health and Science Communication Design. 
+			The information contained on this site is intended for educational purposes 
+			only and should not replace the advice of a physician.
+		</p>
+	</footer>
+
+	<a href="#" uk-totop uk-scroll uk-sticky="bottom: true; offset: 80" class="uk-totop-button"></a>
+</body>
+</html>
